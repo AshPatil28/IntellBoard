@@ -7,8 +7,9 @@ dotenv.config();
 const app=express();
 app.use(express.json());
 
-connectDB();
 
 app.use("/api/notes",notesRoutes);
 
-app.listen(5001,()=> console.log("Server Started in Port:5001"))
+connectDB().then(()=>{
+    app.listen(5001,()=> console.log("Server Started in Port:5001"))
+});
