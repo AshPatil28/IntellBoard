@@ -7,7 +7,6 @@ IntellBoard is a sleek and intuitive **note-taking web application** built using
 ## 🚀 Features
 
 - ✍️ Create, view, edit, and delete notes
-- 🔒 User authentication & session management
 - 📦 RESTful API backend using Node.js & Express
 - 🌐 Fully responsive frontend with React
 - 💾 MongoDB database for persistent storage
