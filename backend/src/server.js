@@ -10,7 +10,7 @@ dotenv.config();
 const app=express();
 const __dirname=path.resolve()
 
-if(process.env.NODE_ENV==="production"){
+if(process.env.NODE_ENV!=="production"){
 app.use(express.json());
 
     app.use(cors({
